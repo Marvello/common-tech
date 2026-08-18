@@ -1,6 +1,6 @@
 {
   "name": "@marvello/common-tech",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Shared utilities — DB client, migrations, and more",
   "type": "module",
   "exports": {
@@ -10,11 +10,17 @@
   },
   "typesVersions": {
     "*": {
-      "client": ["dist/client.d.ts"],
-      "migrate": ["dist/migrate.d.ts"]
+      "client": [
+        "dist/client.d.ts"
+      ],
+      "migrate": [
+        "dist/migrate.d.ts"
+      ]
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "node --import tsx --test test/*.test.ts",

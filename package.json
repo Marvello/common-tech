@@ -1,5 +1,5 @@
 {
-  "name": "@marvellooni/common-tech",
+  "name": "@marvello/common-tech",
   "version": "0.1.0",
   "description": "Shared utilities — DB client, migrations, and more",
   "type": "module",
